@@ -1,0 +1,236 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #54565B;
+}
+#intro {
+  height: 598px;
+}
+#tech {
+  height: 525px;
+}
+#skills {
+  height: 602px;
+  width: 1400px;
+  margin: auto;
+}
+#services {
+  height: 418px;
+}
+#footer-banner {
+  height: 102px;
+}
+#contact {
+  height: 55px;
+}
+/***** GRID *****/
+.full-width {
+  width: 1400px;
+  margin: 0 auto;
+}
+.half-width {
+  width: 700px;
+  float: left;
+}
+.third-width {
+  width: 466px;
+  float: left;
+}
+.quarter-width {
+  width: 350px;
+  float: left;
+}
+/***** HEADER *****/
+header {
+  height: 64px;
+}
+header img {
+  margin-top: 22px;
+  margin-left: 25px;
+}
+nav {
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 40px;
+  margin-right: 23px;
+  margin-top: 31px;
+}
+/***** INTRO *****/
+#intro h1 {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 72px;
+  color: #ffffff;
+  margin-top: -415px;
+  margin-left: 205px;
+  letter-spacing: 8px;
+  line-height: 30px;
+  word-spacing: 1px;
+}
+#intro h1 span {
+  color: #1995ad;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+#intro h2 {
+  font-size: 27px;
+  color: #ffffff;
+  font-weight: 100;
+  margin-top: -20px;
+  margin-left: 120px;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+#intro img {
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-top-color: #1995AD;
+}
+/***** TECH *****/
+#tech img {
+  margin-top: 84px;
+  margin-left: 330px;
+}
+/***** SKILLS *****/
+#skills {
+  background-color: #a1d6e2;
+  text-align: center;
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-top-color: #dddede;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: #dddede;
+}
+#skills .full-width {
+  padding-top: 110px;
+  margin-left: 5px;
+  margin-right: 25px;
+}
+#skills img {
+  padding-bottom: 30px;
+}
+#skills h4 {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  line-height: 24px;
+  width: 205px;
+  margin: 0 auto;
+  color: #1995AD;
+  letter-spacing: 1px;
+}
+#skills p {
+  font-size: 16px;
+  line-height: 20px;
+  width: 210px;
+  margin: 50px auto;
+}
+/***** SERVICES *****/
+#services ul {
+  text-align: center;
+  margin-right: 35px;
+}
+#services li {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  line-height: 36px;
+  list-style-type: none;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+.big-left-box {
+  width: 700px;
+  height: 418px;
+  background: #1995ad;
+  float: left;
+}
+.left-box {
+  background: #a1d6e2;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 10px;
+  width: 590px;
+  height: 315px;
+  float: left;
+  margin-left: 45px;
+  margin-top: 34px;
+}
+.big-right-box {
+  width: 700px;
+  height: 418px;
+  background: #a5c05b;
+  float: right;
+}
+.right-box {
+  background: #cddca5;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 10px;
+  width: 590px;
+  height: 315px;
+  float: right;
+  margin-right: 45px;
+  margin-top: 34px;
+}
+#services h5 {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  line-height: 46px;
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-align: center;
+  clear: both;
+
+}
+/***** FOOTER BANNER *****/
+#footer-banner {
+  margin: 0 auto;
+}
+/***** FOOTER *****/
+#contact {
+  background-color: #f7ef6a;
+  margin: 0 auto;
+  width: 1400px;
+  height: 55px;
+  padding-top: 20px;
+}
+#contact #copyright {
+  width: 466px;
+  height: 55px;
+}
+#contact p {
+  margin-left: 25px;
+  font-size: 12px;
+}
+#contact #email {
+  width: 466px;
+  height: 55px;
+}
+#contact a {
+  text-decoration: none;
+  color: #54565b;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 10px;
+}
+#contact #social {
+  width: 468px;
+  height: 55px;
+}
+#contact ul {
+  list-style: none;
+}
+#contact ul li {
+  display: inline-block;
+  margin-top: -15px;
+  margin-left: 20px;
+}
